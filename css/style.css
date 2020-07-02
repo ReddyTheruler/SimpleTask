@@ -1,0 +1,29 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+   background-color:#f26624 !important;
+   border-color:#f26624 !important;
+}
+
+/* not active */
+.nav-pills .nav-link:not(.active) {
+    background-color: #fff;
+    color:black;
+}
+
+/* active*/
+.nav-pills .nav-link {
+    background-color: rgba(0, 255, 0, 0.5);
+    color: white;
+}
+
+.nav-pills .nav-link:hover{
+    background-color:#f26624;
+    color:white;
+}
+
+.popover {
+    background: grey;
+}
